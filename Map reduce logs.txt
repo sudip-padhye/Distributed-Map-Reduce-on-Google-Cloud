@@ -1,0 +1,46 @@
+Enter the Operation Mode[0/1]:
+0 - WordCount
+1 - InvertedIndex
+1
+Enter no. of input files: 
+2
+Enter File 1: 
+book.txt
+Enter File 2: 
+The_Legend_of_Sleepy_Hollow.txt
+
+Reading Config file
+Config file read. Environment variables intialized successfully
+Deleting old files
+Old files deleted
+
+Mappers processing...
+KeyValueStore instance started on IP - 10.128.0.14 at 22:05:04.450
+Mapper instance 1 started on IP - 10.128.0.7 at 22:05:04.450
+Mapper instance 2 started on IP - 10.128.0.8 at 22:05:04.450
+Mapper instance 3 started on IP - 10.128.0.9 at 22:05:04.451
+Processing File: 1
+No. of mappers intitiated:  3
+Mapper job 1/2 done
+Mapper job 2/2 done
+Processing File: 2
+No. of mappers intitiated:  3
+Mapper job 1/3 done
+Mapper job 2/3 done
+Mapper job 3/3 done
+Mapping done...
+Mapper instance 1 terminated on IP - 10.128.0.7 at 22:06:00.884
+Mapper instance 2 terminated on IP - 10.128.0.8 at 22:06:00.884
+Mapper instance 3 terminated on IP - 10.128.0.9 at 22:06:00.884
+Reducer instance 1 started on IP - 10.128.0.10 at 22:06:00.884
+Reducer instance 2 started on IP - 10.128.0.11 at 22:06:00.884
+Reducer instance 3 started on IP - 10.128.0.12 at 22:06:00.884
+Reducers processing...
+Reducers spawned = 3
+Inverted Index operation done successfully
+Reducing done...
+Reducer instance 1 terminated on IP - 10.128.0.10 at 22:07:36.178
+Reducer instance 2 terminated on IP - 10.128.0.11 at 22:07:36.179
+Reducer instance 3 terminated on IP - 10.128.0.12 at 22:07:36.179
+KeyValueStore instance terminated on IP - 10.128.0.14 at 22:07:36.179
+Cluster 1 destroyed successfully.

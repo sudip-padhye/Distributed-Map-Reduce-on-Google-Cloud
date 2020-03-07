@@ -1,0 +1,14 @@
+MASTER_SERVER_PORT,9200
+OUTPUT_FILE_PATH,output.txt
+KVS_SERVER_PORT,10110
+NO_OF_MAPPER_INSTANCES,3
+NO_OF_REDUCER_INSTANCES,3
+mapper-instance1_IP,10.128.0.7
+mapper-instance1_IP,10.128.0.8
+mapper-instance1_IP,10.128.0.9
+reducer-instance1_IP,10.128.0.10
+reducer-instance1_IP,10.128.0.11
+reducer-instance1_IP,10.128.0.12
+keyvaluestore-instance_IP,10.128.0.14
+Zone,us-central1-c
+Project-name,sudip-padhye

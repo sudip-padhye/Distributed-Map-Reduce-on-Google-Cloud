@@ -1,0 +1,4698 @@
+[
+ {
+   "insertId": "9q244mf2y4rp2",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575948747559082",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+     "operation": {
+       "type": "operation",
+       "id": "4650995167640334166",
+       "global": true,
+       "name": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:27.559082Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:32:27.598238383Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-jos4y5d76ss",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:27.306Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:32:28.507473761Z"
+ },
+ {
+   "insertId": "1amp66wg33s0a02",
+   "jsonPayload": {
+     "event_timestamp_us": "1575948733405156",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "4622055858388512604",
+       "global": true,
+       "name": "operation-1575948722460-5995127c955c2-2c7726ac-94870341"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:13.405156Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:32:13.482191636Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-yobmroc5ko",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:13.283Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:32:14.288037893Z"
+ },
+ {
+   "insertId": "1wtf0gwg48v6wqa",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "event_timestamp_us": "1575948729556627",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+     "operation": {
+       "type": "operation",
+       "id": "4650995167640334166",
+       "global": true,
+       "name": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:09.556627Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:32:09.667907973Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:32:09.631Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "PENDING",
+       "name": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+       "targetId": "958241304957",
+       "id": "4650995167640334166",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:32:09.328-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/4650995167640334166"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "o584oidrvvs",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:09.094Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575948729050-59951282de6d6-66af8bc9-0a1d3f24",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:32:10.150653040Z"
+ },
+ {
+   "insertId": "1awkge5g4qehiz4",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575948723524082",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+       "type": "operation",
+       "id": "4622055858388512604",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:03.524082Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:32:03.632039873Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:32:03.607Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T19:32:03.135-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:32:03.130-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/4622055858388512604",
+       "status": "RUNNING",
+       "name": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+       "targetId": "958241304957",
+       "id": "4622055858388512604"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-634m4rdqxxi",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:32:02.526Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575948722460-5995127c955c2-2c7726ac-94870341",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:32:04.580985190Z"
+ },
+ {
+   "insertId": "6ny54xg1eywwk4",
+   "jsonPayload": {
+     "event_timestamp_us": "1575947619401102",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+     "operation": {
+       "name": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+       "type": "operation",
+       "id": "2451122389032022975",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:39.401102Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:13:39.511291407Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-31jmivd2q3e",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:39.256Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:13:40.444064880Z"
+ },
+ {
+   "insertId": "sl2y7pg48vb6tq",
+   "jsonPayload": {
+     "event_timestamp_us": "1575947607243001",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "168074850022372256",
+       "global": true,
+       "name": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:27.243001Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:13:27.319037072Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-w6ieexd3ik4",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:27.018Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:13:28.092847757Z"
+ },
+ {
+   "insertId": "gnj8jzg24si6fk",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "event_timestamp_us": "1575947600770951",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+     "operation": {
+       "type": "operation",
+       "id": "2451122389032022975",
+       "global": true,
+       "name": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:20.770951Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:13:20.875860348Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:13:20.841Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "PENDING",
+       "name": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+       "targetId": "958241304957",
+       "id": "2451122389032022975",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:13:20.476-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/2451122389032022975"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "lnenjqd13wm",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:20.137Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947600104-59950e4e38e0d-62f4c1a7-f8dd3b8f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:13:21.504626738Z"
+ },
+ {
+   "insertId": "pt10k7g24wc5ij",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575947599198540",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "type": "operation",
+       "id": "168074850022372256",
+       "global": true,
+       "name": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:19.198540Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:13:19.305713418Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:13:19.270Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/168074850022372256",
+       "status": "RUNNING",
+       "name": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+       "targetId": "958241304957",
+       "id": "168074850022372256",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T19:13:19.126-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:13:19.104-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-59d5gldoo6q",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:18.818Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947598775-59950e4cf445f-eba3225c-73a9be5f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:13:20.149256125Z"
+ },
+ {
+   "insertId": "1vzpeoxg1bfqptj",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+       "type": "operation",
+       "id": "6884435847266087875",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575947580924185",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:00.924185Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:13:00.965927648Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-b323x4c4zi",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:13:00.824Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:13:01.006204145Z"
+ },
+ {
+   "insertId": "1ulnqprg37ns52y",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575947572118938",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+     "operation": {
+       "name": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+       "type": "operation",
+       "id": "3047943682910237637",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:52.118938Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:12:52.228961069Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-4zfx8md8ncs",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:52.019Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:12:53.007582768Z"
+ },
+ {
+   "insertId": "i1td25g4qaib7y",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575947564506945",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+       "type": "operation",
+       "id": "6884435847266087875",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:44.506945Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:12:44.564407624Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:12:44.573Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "id": "6884435847266087875",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:12:44.191-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/6884435847266087875",
+       "status": "PENDING",
+       "name": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+       "targetId": "958241304957"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-cr06qddlekw",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:43.906Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947563859-59950e2ba7da6-ae1d1725-e6e272f3",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:12:44.789592620Z"
+ },
+ {
+   "insertId": "ldhjtag48pzjfy",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575947562800274",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "type": "operation",
+       "id": "3047943682910237637",
+       "global": true,
+       "name": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:42.800274Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:12:42.896922292Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:12:42.869Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "insertTime": "2019-12-09T19:12:42.705-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/3047943682910237637",
+       "status": "RUNNING",
+       "name": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+       "targetId": "958241304957",
+       "id": "3047943682910237637",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T19:12:42.709-08:00",
+       "progress": "0"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "qnitpgd1amu",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:12:42.384Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947562345-59950e2a36475-5d88ed10-386b4d4f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:12:43.775036102Z"
+ },
+ {
+   "insertId": "jz7bylf38d4f2",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575947325534140",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+       "type": "operation",
+       "id": "2916010473784783600",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:45.534140Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:08:45.592667117Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "4q6betd2dmw",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:45.406Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:08:46.208182344Z"
+ },
+ {
+   "insertId": "1sxnw2sf4ouwor",
+   "jsonPayload": {
+     "event_timestamp_us": "1575947313221340",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "1119632374938907379",
+       "global": true,
+       "name": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:33.221340Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:08:33.298843762Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-q2x8xdd33kc",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:33.017Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T03:08:34.136067219Z"
+ },
+ {
+   "insertId": "tz8hkxg2oux0p3",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+     "operation": {
+       "name": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+       "type": "operation",
+       "id": "2916010473784783600",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575947295742135",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:15.742135Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:08:15.849243425Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:08:15.812Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "PENDING",
+       "name": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+       "targetId": "958241304957",
+       "id": "2916010473784783600",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:08:15.465-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/2916010473784783600"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-63p8j3d16z2",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:15.150Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947295107-59950d2b5aa96-02d1d298-bc4c8c8f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:08:15.896200367Z"
+ },
+ {
+   "insertId": "yp3sn2g37p1fz9",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+     "operation": {
+       "name": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+       "type": "operation",
+       "id": "1119632374938907379",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575947292990808",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:12.990808Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T03:08:13.098436178Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T03:08:13.078Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "id": "1119632374938907379",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T19:08:12.822-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T19:08:12.818-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/1119632374938907379",
+       "status": "RUNNING",
+       "name": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+       "targetId": "958241304957"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "mhbutkdrgg8",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T03:08:12.264Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575947292202-59950d289572a-6dc2dbcb-d2269034",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T03:08:13.378667291Z"
+ },
+ {
+   "insertId": "atzgwag4oucxcs",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943442695866",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+     "operation": {
+       "type": "operation",
+       "id": "8985803314717475814",
+       "global": true,
+       "name": "operation-1575943432966-5994fec821142-ef0db491-cf849d01"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:04:02.695866Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:04:02.749023202Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-yo3qt9c4ce",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:04:02.594Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:04:02.734399969Z"
+ },
+ {
+   "insertId": "wr5sh5g1h8as3l",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943435120178",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "5049634266615596013",
+       "global": true,
+       "name": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:55.120178Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:03:55.216637335Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "l3mlthd3jn6",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:54.920Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:03:55.578306438Z"
+ },
+ {
+   "insertId": "rrfhn8g2riad2e",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+     "operation": {
+       "name": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+       "type": "operation",
+       "id": "8985803314717475814",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575943433472716",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:53.472716Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:03:53.564568241Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:03:53.538Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "PENDING",
+       "name": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+       "targetId": "958241304957",
+       "id": "8985803314717475814",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T18:03:53.243-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/8985803314717475814"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-4fll9le2cetg",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:53.017Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943432966-5994fec821142-ef0db491-cf849d01",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:03:54.183066110Z"
+ },
+ {
+   "insertId": "1kvrko5fr2nkbn",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943426456312",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f",
+     "operation": {
+       "type": "operation",
+       "id": "5049634266615596013",
+       "global": true,
+       "name": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:46.456312Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:03:46.525836018Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:03:46.537Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "targetId": "958241304957",
+       "id": "5049634266615596013",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T18:03:46.248-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T18:03:46.232-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/5049634266615596013",
+       "status": "RUNNING",
+       "name": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "u8wnccd5xbm",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:03:45.883Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943425840-5994fec1554e5-f74a13d7-42c51d8f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:03:46.938881043Z"
+ },
+ {
+   "insertId": "1a2fl2jg48dyx60",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943328005621",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "8181288577909604962",
+       "global": true,
+       "name": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:02:08.005621Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:02:08.074849685Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "t58pubd4h9m",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:02:07.917Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:02:08.109730775Z"
+ },
+ {
+   "insertId": "bxsvjsg37qiesn",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943316678876",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "7969471485339452003",
+       "global": true,
+       "name": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:56.678876Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:56.784766532Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "504crecyls",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:56.469Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:57.707416Z"
+ },
+ {
+   "insertId": "1bq4rskg3jg1apb",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575943310256869",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+       "type": "operation",
+       "id": "8181288577909604962",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:50.256869Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:50.326341193Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:01:50.338Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "progress": "0",
+       "insertTime": "2019-12-09T18:01:49.901-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/8181288577909604962",
+       "status": "PENDING",
+       "name": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+       "targetId": "958241304957",
+       "id": "8181288577909604962",
+       "@type": "type.googleapis.com/operation"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-ch1dj8ds3pc",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:49.374Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943309296-5994fe523021f-5973191b-14ad3f05",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:51.338624497Z"
+ },
+ {
+   "insertId": "1ohzdofg48mnzbk",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+     "operation": {
+       "name": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+       "type": "operation",
+       "id": "7969471485339452003",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575943308843029",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:48.843029Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:48.883928972Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:01:48.873Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "targetId": "958241304957",
+       "id": "7969471485339452003",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T18:01:48.750-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T18:01:48.681-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/7969471485339452003",
+       "status": "RUNNING",
+       "name": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-r6fknpdqtpy",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:48.347Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943308306-5994fe513e897-dd7c9ea0-6e7da68c",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:49.175607103Z"
+ },
+ {
+   "insertId": "sldoh4g27yoo0v",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943298982288",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+     "operation": {
+       "type": "operation",
+       "id": "2583332675087712925",
+       "global": true,
+       "name": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:38.982288Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:39.086311897Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-tlagqd3y9u",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:38.905Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:39.061237201Z"
+ },
+ {
+   "insertId": "1ubspfkg2dyzhf8",
+   "jsonPayload": {
+     "event_timestamp_us": "1575943288187762",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "6938329419018879617",
+       "global": true,
+       "name": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:28.187762Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:28.233661996Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-8vdt06d1r6o",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:28.013Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:28.927236406Z"
+ },
+ {
+   "insertId": "4gapl5g485emlq",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575943283060739",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+       "type": "operation",
+       "id": "2583332675087712925",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:23.060739Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:23.121266689Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:01:23.146Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/2583332675087712925",
+       "status": "PENDING",
+       "name": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+       "targetId": "958241304957",
+       "id": "2583332675087712925",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T18:01:22.744-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943282049-5994fe38343cb-1135a7cc-237f536d"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "mhbutkdr5pq",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:22.127Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943282049-5994fe38343cb-1135a7cc-237f536d",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:23.868954093Z"
+ },
+ {
+   "insertId": "1aci2fsf47ljgr",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575943278696418",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "type": "operation",
+       "id": "6938329419018879617",
+       "global": true,
+       "name": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:18.696418Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T02:01:18.751730789Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T02:01:18.738Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "RUNNING",
+       "name": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+       "targetId": "958241304957",
+       "id": "6938329419018879617",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T18:01:18.371-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T18:01:18.346-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/6938329419018879617"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-wglyrpe1b56k",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T02:01:18.087Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575943278040-5994fe34616d7-872a24f4-0f7e83cc",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T02:01:19.137458808Z"
+ },
+ {
+   "insertId": "gnew1mg47v3g7x",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575942442659018",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+     "operation": {
+       "type": "operation",
+       "id": "7541750711831447065",
+       "global": true,
+       "name": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:47:22.659018Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:47:22.738087381Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "xl7su2c69o",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:47:22.570Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:47:23.157342440Z"
+ },
+ {
+   "insertId": "1r9l86yg319bx4g",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575942432624903",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+       "type": "operation",
+       "id": "3231625922193081885",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:47:12.624903Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:47:12.725561438Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-k91475c3oi",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:47:12.534Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:47:13.504527024Z"
+ },
+ {
+   "insertId": "1ie1e6fg26bso3u",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+     "operation": {
+       "type": "operation",
+       "id": "7541750711831447065",
+       "global": true,
+       "name": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575942390559916",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:46:30.559916Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:46:30.636796554Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:46:30.624Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "status": "PENDING",
+       "name": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+       "targetId": "958241304957",
+       "id": "7541750711831447065",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:46:30.303-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/7541750711831447065"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-n10oicdkh9c",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:46:30.075Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575942390035-5994fae58336a-90fb2884-5aeb5d64",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:46:30.881975293Z"
+ },
+ {
+   "insertId": "ezipfxg489eomo",
+   "jsonPayload": {
+     "event_timestamp_us": "1575942386296036",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+       "type": "operation",
+       "id": "3231625922193081885",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": ""
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:46:26.296036Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:46:26.404953878Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:46:26.367Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/3231625922193081885",
+       "status": "RUNNING",
+       "name": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+       "targetId": "958241304957",
+       "id": "3231625922193081885",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T17:46:26.198-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:46:26.193-08:00"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "nbgqvmcskw",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:46:25.914Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575942385874-5994fae18b796-c69ef768-dd9e6c86",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:46:27.227110277Z"
+ },
+ {
+   "insertId": "1bg4tt0g3j5502q",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575941460373730",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+       "type": "operation",
+       "id": "8562499730389814187",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:31:00.373730Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:31:00.430023136Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "z8mwy9d42ag",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:31:00.282Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:31:00.464168004Z"
+ },
+ {
+   "insertId": "z8phkdg38h7lqm",
+   "jsonPayload": {
+     "event_timestamp_us": "1575941450912360",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+     "operation": {
+       "name": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+       "type": "operation",
+       "id": "5168488157863431120",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:50.912360Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:30:50.998531413Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "w793zdc3q6",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:50.760Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:30:51.624548166Z"
+ },
+ {
+   "insertId": "1dejxtkg1ypagzk",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "event_timestamp_us": "1575941444704858",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+     "operation": {
+       "type": "operation",
+       "id": "8562499730389814187",
+       "global": true,
+       "name": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:44.704858Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:30:44.753479844Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:30:44.779Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "id": "8562499730389814187",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:30:44.522-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/8562499730389814187",
+       "status": "PENDING",
+       "name": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+       "targetId": "958241304957"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "9zoli5dq3r4",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:43.925Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575941443862-5994f75f2c1c7-28e98cef-77264a6c",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:30:45.529863027Z"
+ },
+ {
+   "insertId": "sldoh4g27qo080",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "event_timestamp_us": "1575941439275736",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+     "operation": {
+       "type": "operation",
+       "id": "5168488157863431120",
+       "global": true,
+       "name": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:39.275736Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:30:39.371475066Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:30:39.346Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/5168488157863431120",
+       "status": "RUNNING",
+       "name": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+       "targetId": "958241304957",
+       "id": "5168488157863431120",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T17:30:39.040-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:30:39.035-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "tp67wadjdfq",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:30:38.736Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575941438681-5994f75a3afbf-4d8f071f-5c7e2ab6",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:30:39.673026869Z"
+ },
+ {
+   "insertId": "m7kartg37ffphw",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575940650981895",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+     "operation": {
+       "name": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+       "type": "operation",
+       "id": "2428434172751334643",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:30.981895Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:17:31.031064566Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-uij37kd3kjs",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:30.811Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:17:31.144669569Z"
+ },
+ {
+   "insertId": "6ntiktg2afm1kb",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+     "operation": {
+       "type": "operation",
+       "id": "3879814350621592825",
+       "global": true,
+       "name": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575940641036597",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:21.036597Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:17:21.122638433Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "dvofegc3f2",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:20.838Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:17:21.625498347Z"
+ },
+ {
+   "insertId": "x0xa52g2l85lmr",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+     "operation": {
+       "name": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+       "type": "operation",
+       "id": "2428434172751334643",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "event_timestamp_us": "1575940636799206",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:16.799206Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:17:16.891709266Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:17:16.866Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/2428434172751334643",
+       "status": "PENDING",
+       "name": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+       "targetId": "958241304957",
+       "id": "2428434172751334643",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:17:16.567-08:00"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-jeu4vvd71a2",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:16.297Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940636238-5994f45cf6142-760537c7-6c93e74f",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:17:17.135302733Z"
+ },
+ {
+   "insertId": "of2sy8g3j7u3qt",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+     "operation": {
+       "type": "operation",
+       "id": "3879814350621592825",
+       "global": true,
+       "name": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "event_timestamp_us": "1575940630780764",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:10.780764Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:17:10.878098121Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:2f44::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:17:10.845Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/3879814350621592825",
+       "status": "RUNNING",
+       "name": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+       "targetId": "958241304957",
+       "id": "3879814350621592825",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T17:17:10.583-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:17:10.554-08:00",
+       "user": "sudipadh@iu.edu"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "q3ejfzdpm5c",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:17:10.293Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940630224-5994f45739fac-310607cc-fb1861ba",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:17:11.565813676Z"
+ },
+ {
+   "insertId": "1lg3tpmg37cbbcu",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+       "type": "operation",
+       "id": "4999574077728575327",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575940539639719",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:39.639719Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:15:39.673981428Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-ft22b2d44yu",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:39.542Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:15:40.019004076Z"
+ },
+ {
+   "insertId": "1orlr1og3ptf2ay",
+   "jsonPayload": {
+     "version": "1.2",
+     "event_timestamp_us": "1575940531855815",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+     "operation": {
+       "type": "operation",
+       "id": "4534341150051618629",
+       "global": true,
+       "name": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:31.855815Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:15:31.933269922Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "f9r2n7d51i8",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:31.635Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:15:32.837394619Z"
+ },
+ {
+   "insertId": "1es05cxg2ix1b92",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+     "operation": {
+       "name": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+       "type": "operation",
+       "id": "4999574077728575327",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "body": "null",
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575940528308076",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:28.308076Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:15:28.415952476Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:15:28.378Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "insertTime": "2019-12-09T17:15:28.212-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/4999574077728575327",
+       "status": "PENDING",
+       "name": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+       "targetId": "958241304957",
+       "id": "4999574077728575327",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "gdtgyedjw40",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:27.938Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940527895-5994f3f5a3372-687d324b-3d02ebb6",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:15:28.723559176Z"
+ },
+ {
+   "insertId": "10mvb7de67988",
+   "jsonPayload": {
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "event_timestamp_us": "1575940522342809",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+     "operation": {
+       "type": "operation",
+       "id": "4534341150051618629",
+       "global": true,
+       "name": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:22.342809Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:15:22.401955609Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:1e57::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:15:22.372Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "progress": "0",
+       "insertTime": "2019-12-09T17:15:22.100-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata",
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/4534341150051618629",
+       "status": "RUNNING",
+       "name": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+       "targetId": "958241304957",
+       "id": "4534341150051618629",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T17:15:22.117-08:00"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "vms11ve2clge",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:15:21.846Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940521797-5994f3efd2715-c99771e1-ff7d1ba5",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:15:22.574592302Z"
+ },
+ {
+   "insertId": "1v5lfh4g4okrkr4",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+     "operation": {
+       "type": "operation",
+       "id": "7605681244197834248",
+       "global": true,
+       "name": "operation-1575940326963-5994f33603a26-0642e368-90fd691a"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575940342278516",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:22.278516Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:12:22.324106385Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-8l44q7dafnc",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:22.179Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:12:22.778258860Z"
+ },
+ {
+   "insertId": "1yh8ks1g484qvwt",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "type": "operation",
+       "id": "7191226035529272844",
+       "global": true,
+       "name": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575940335036693",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:15.036693Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:12:15.088247539Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-e56erbc39q",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:14.750Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-10T01:12:15.255762075Z"
+ },
+ {
+   "insertId": "1b6f3zeg2o5qeci",
+   "jsonPayload": {
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "event_type": "GCE_API_CALL",
+     "trace_id": "operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+     "operation": {
+       "type": "operation",
+       "id": "7605681244197834248",
+       "global": true,
+       "name": "operation-1575940326963-5994f33603a26-0642e368-90fd691a"
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "ip_address": "",
+     "event_timestamp_us": "1575940327823649",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:07.823649Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:12:07.899870265Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:12:07.854Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/7605681244197834248",
+       "status": "PENDING",
+       "name": "operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+       "targetId": "958241304957",
+       "id": "7605681244197834248",
+       "@type": "type.googleapis.com/operation",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:12:07.471-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "jpc84rdifsy",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:07.007Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940326963-5994f33603a26-0642e368-90fd691a",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:12:08.290980183Z"
+ },
+ {
+   "insertId": "1u1d9cvg2xgzuhh",
+   "jsonPayload": {
+     "user_agent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+     "ip_address": "",
+     "request": {
+       "url": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/setCommonInstanceMetadata?key=AIzaSyDYNR0TCM62nyJEEYaS_EwdafIPLZcUPFM",
+       "body": "null"
+     },
+     "event_timestamp_us": "1575940323824875",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "trace_id": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+     "event_type": "GCE_API_CALL",
+     "operation": {
+       "name": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+       "type": "operation",
+       "id": "7191226035529272844",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:03.824875Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-10T01:12:03.849799916Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)",
+       "requestAttributes": {
+         "time": "2019-12-10T01:12:03.854Z",
+         "auth": {}
+       },
+       "destinationAttributes": {}
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "authorizationInfo": [
+       {
+         "permission": "compute.projects.setCommonInstanceMetadata",
+         "granted": true,
+         "resourceAttributes": {
+           "service": "compute",
+           "name": "projects/sudip-padhye",
+           "type": "compute.projects"
+         }
+       }
+     ],
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     },
+     "response": {
+       "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/7191226035529272844",
+       "status": "RUNNING",
+       "name": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+       "targetId": "958241304957",
+       "id": "7191226035529272844",
+       "@type": "type.googleapis.com/operation",
+       "startTime": "2019-12-09T17:12:03.601-08:00",
+       "progress": "0",
+       "insertTime": "2019-12-09T17:12:03.582-08:00",
+       "user": "sudipadh@iu.edu",
+       "selfLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye/global/operations/operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+       "targetLink": "https://www.googleapis.com/compute/v1/projects/sudip-padhye",
+       "operationType": "compute.projects.setCommonInstanceMetadata"
+     },
+     "resourceLocation": {
+       "currentLocations": [
+         "global"
+       ]
+     }
+   },
+   "insertId": "-z859oxd4g6o",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-10T01:12:03.359Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575940323307-5994f33287130-5fddcb25-f3a14ba3",
+     "producer": "type.googleapis.com",
+     "first": true
+   },
+   "receiveTimestamp": "2019-12-10T01:12:04.408106907Z"
+ },
+ {
+   "insertId": "mhhn3wg2ap5nwk",
+   "jsonPayload": {
+     "resource": {
+       "name": "958241304957",
+       "type": "project",
+       "id": "958241304957",
+       "global": true
+     },
+     "event_type": "GCE_OPERATION_DONE",
+     "trace_id": "operation-1575925477009-5994bbe3fea36-cbb128f8-86b3ea78",
+     "operation": {
+       "name": "operation-1575925477009-5994bbe3fea36-cbb128f8-86b3ea78",
+       "type": "operation",
+       "id": "7055972906878306314",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2",
+     "event_timestamp_us": "1575925498018450",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     }
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-09T21:04:58.018450Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957",
+     "compute.googleapis.com/resource_name": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-09T21:04:58.097955935Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:6a4d::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "-qmltx2d2uy2",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-09T21:04:57.809Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575925477009-5994bbe3fea36-cbb128f8-86b3ea78",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-09T21:04:58.769893197Z"
+ },
+ {
+   "insertId": "1d49ozag4n5yfve",
+   "jsonPayload": {
+     "event_timestamp_us": "1575925487836733",
+     "actor": {
+       "user": "sudipadh@iu.edu"
+     },
+     "resource": {
+       "type": "project",
+       "id": "958241304957",
+       "global": true,
+       "name": "958241304957"
+     },
+     "trace_id": "operation-1575925471518-5994bbdec1f2e-fa9f834f-43e7009d",
+     "event_type": "GCE_OPERATION_DONE",
+     "operation": {
+       "name": "operation-1575925471518-5994bbdec1f2e-fa9f834f-43e7009d",
+       "type": "operation",
+       "id": "5350360308949125135",
+       "global": true
+     },
+     "event_subtype": "compute.projects.setCommonInstanceMetadata",
+     "version": "1.2"
+   },
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-09T21:04:47.836733Z",
+   "severity": "INFO",
+   "labels": {
+     "compute.googleapis.com/resource_name": "958241304957",
+     "compute.googleapis.com/resource_type": "project",
+     "compute.googleapis.com/resource_id": "958241304957"
+   },
+   "logName": "projects/sudip-padhye/logs/compute.googleapis.com%2Factivity_log",
+   "receiveTimestamp": "2019-12-09T21:04:47.914402712Z"
+ },
+ {
+   "protoPayload": {
+     "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+     "authenticationInfo": {
+       "principalEmail": "sudipadh@iu.edu"
+     },
+     "requestMetadata": {
+       "callerIp": "2002:a6a:7788::",
+       "callerSuppliedUserAgent": "SshRelayServer Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)"
+     },
+     "serviceName": "compute.googleapis.com",
+     "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+     "resourceName": "projects/sudip-padhye",
+     "request": {
+       "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+     }
+   },
+   "insertId": "gnt3shd2csg",
+   "resource": {
+     "type": "gce_project",
+     "labels": {
+       "project_id": "958241304957"
+     }
+   },
+   "timestamp": "2019-12-09T21:04:47.624Z",
+   "severity": "NOTICE",
+   "logName": "projects/sudip-padhye/logs/cloudaudit.googleapis.com%2Factivity",
+   "operation": {
+     "id": "operation-1575925471518-5994bbdec1f2e-fa9f834f-43e7009d",
+     "producer": "compute.googleapis.com",
+     "last": true
+   },
+   "receiveTimestamp": "2019-12-09T21:04:47.952332681Z"
+ }
+]
